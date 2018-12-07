@@ -13,3 +13,11 @@
 /META*
 /MYMETA*
 /pm_to_blib
+/mojolicious-plugin-openapi-*
+/.build
+/_build_params
+/Build
+/Build.bat
+!Build/
+!META.json
+!LICENSE

@@ -1,0 +1,88 @@
+{
+   "abstract" : "OpenAPI / Swagger plugin for Mojolicious",
+   "author" : [
+      "Jan Henning Thorsen"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v3.1.3, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Mojolicious-Plugin-OpenAPI",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.035"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion::Fast" : "0.04",
+            "Test::PAUSE::Permissions" : "0.04",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "recommends" : {
+            "Text::Markdown" : "v1.0.31",
+            "YAML::XS" : "0.75"
+         },
+         "requires" : {
+            "JSON::Validator" : "2.19"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.88"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/jhthorsen/mojolicious-plugin-openapi/issues"
+      },
+      "homepage" : "https://github.com/jhthorsen/mojolicious-plugin-openapi",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/jhthorsen/mojolicious-plugin-openapi.git",
+         "web" : "https://github.com/jhthorsen/mojolicious-plugin-openapi"
+      }
+   },
+   "version" : "2.06",
+   "x_authority" : "cpan:JHTHORSEN",
+   "x_contributors" : [
+      "Doug Bell <doug@preaction.me>",
+      "Ed J <mohawk2@users.noreply.github.com>",
+      "Jan Henning Thorsen <jhthorsen@cpan.org>",
+      "Joel Berger <joel.a.berger@gmail.com>",
+      "Krasimir Berov <k.berov@gmail.com>",
+      "Lars Thegler <lth@fibia.dk>",
+      "Lee Johnson <lee@givengain.ch>",
+      "Martin Renvoize <martin.renvoize@ptfs-europe.com>",
+      "Renee <reb@perl-services.de>",
+      "Søren Lund <sl@keycore.dk>",
+      "manuel <manuel@mausz.at>",
+      "openstrike <git@openstrike.co.uk>"
+   ],
+   "x_serialization_backend" : "JSON::PP version 2.97001",
+   "x_static_install" : 1
+}
